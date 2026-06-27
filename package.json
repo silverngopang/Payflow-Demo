@@ -1,0 +1,9 @@
+{
+  "name": "github-actions-demo",
+  "version": "1.0.0",
+  "description": "Simple Node project for GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  }
+}
