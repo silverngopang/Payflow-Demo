@@ -22,7 +22,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                sh 'cp -r . /var/payflow-deploy'
+                sh 'cp -r --exclude=.git . /var/payflow-deploy'
             }
         }
     }
